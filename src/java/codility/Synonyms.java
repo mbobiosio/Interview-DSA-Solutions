@@ -1,4 +1,4 @@
-package github;
+package java.codility;
 
 import java.util.ArrayList;
 import java.util.HashSet;

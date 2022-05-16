@@ -1,4 +1,4 @@
-package hackerrank.algorithm;
+package java.hackerrank;
 
 /*
 Problem:

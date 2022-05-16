@@ -1,4 +1,4 @@
-package interviews;
+package java.interviews;
 
 import java.util.HashMap;
 import java.util.HashSet;

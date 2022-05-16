@@ -24,7 +24,16 @@ object IntMaxOccurrenceSolutions {
         // println(maxOrNullOccurrence(list))
 
         // countMax
-        println(maxOccurrenceMap())
+        // println(maxOccurrenceMap())
+
+        // sorting list
+        // println(sortingArray(array))
+
+        // arrayToList
+        // println(arrayToList(array))
+
+        // double array
+        findDoubleArray()
     }
 
     private fun getMaxAndOccurrenceCount(list: List<Int>) {
@@ -53,5 +62,41 @@ object IntMaxOccurrenceSolutions {
             frequencyMap[s] = count + 1
         }
         println(frequencyMap)
+    }
+
+    private fun sortingArray(array: Array<Int>) {
+        array.sort()
+
+        println("Max: ${array.first()}")
+        println("Min: ${array.last()}")
+    }
+
+    private fun arrayToList(array: Array<Int>) {
+        val ints = array.toList()
+
+        println("Max: ${ints.maxOrNull()}")
+        println("Min: ${ints.minOrNull()}")
+    }
+
+    /**
+    * find common element in a list using a generic
+    * */
+    fun <T> findCommon(list: List<T>): T? {
+        return list
+                .groupBy { it }
+                .maxByOrNull { it.value.size }
+                ?.key
+    }
+
+    fun findDoubleArray() {
+        val array = doubleArrayOf(3.4, -34.5, 50.0, 33.5, 55.5, 43.7, 5.7, -66.5)
+        var largest = array[0]
+
+        for (num in array) {
+            if (largest < num)
+                largest = num
+        }
+
+        println("Largest = %.2f".format(largest))
     }
 }

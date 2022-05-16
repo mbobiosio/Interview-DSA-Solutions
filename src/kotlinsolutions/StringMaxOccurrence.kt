@@ -31,8 +31,17 @@ object StringMaxOccurrence {
     @JvmStatic
     fun main(args: Array<String>) {
         val str = "mbuodileobiosio"
+        val words = "Eeny, meeny, miny, moe"
 
-        println(countInstances(str))
+        // println(countInstances(str))
+
+        println(countOccurrence(words, 'e'))
+    }
+
+    private fun countOccurrence(string: String, char: Char): Int {
+        return string.count {
+            it == char
+        }
     }
 
 }

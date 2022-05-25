@@ -1,7 +1,6 @@
 package kotlinsolutions
 
 // The time complexity of selection sort is (O(n2)).
-
 fun selectionSort(sampleArray: IntArray) {
     val n = sampleArray.size
     var temp: Int

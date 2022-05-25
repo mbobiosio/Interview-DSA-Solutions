@@ -1,4 +1,4 @@
-package java.interviews;
+package javasolutions.interviews;
 
 import java.util.HashMap;
 import java.util.HashSet;

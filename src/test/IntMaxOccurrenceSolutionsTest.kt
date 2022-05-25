@@ -1,7 +1,7 @@
-package kotlinsolutions
+package test
 
-import kotlinsolutions.IntMaxOccurrenceSolutions.findCommon
-import org.junit.jupiter.api.Assertions.*
+import kotlinsolutions.findCommon
+import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
 
 /**
@@ -18,7 +18,7 @@ class IntMaxOccurrenceSolutionsTest {
 
     @Test
     fun testFindCommonInt() {
-        val mostCommon = findCommon(listOf(1,2,null,3,4,5,1))
+        val mostCommon = findCommon(listOf(1, 2, null, 3, 4, 5, 1))
         assertEquals(1, mostCommon)
     }
 }

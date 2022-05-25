@@ -1,6 +1,6 @@
 package test;
 
-import java.codility.Synonyms;
+import javasolutions.codility.Synonyms;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

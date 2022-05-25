@@ -1,4 +1,4 @@
-package java.hackerrank;
+package javasolutions.hackerrank;
 
 /*
 Problem:

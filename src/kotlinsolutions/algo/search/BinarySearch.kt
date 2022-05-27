@@ -1,4 +1,4 @@
-package kotlinsolutions
+package kotlinsolutions.algo.search
 
 import java.util.*
 

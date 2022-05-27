@@ -1,4 +1,4 @@
-package kotlinsolutions
+package kotlinsolutions.ds
 
 /**
  * @Author Mbuodile Obiosio

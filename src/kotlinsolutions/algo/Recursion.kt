@@ -1,4 +1,4 @@
-package kotlinsolutions
+package kotlinsolutions.algo
 
 /**
  * @Author Mbuodile Obiosio
@@ -13,6 +13,6 @@ fun fact(num: Int): Long {
 }
 //main method
 fun main() {
-    println("Factorial of 5 is: "+fact(5))
+    println("Factorial of 5 is: "+ fact(5))
 //Recursive call
 }

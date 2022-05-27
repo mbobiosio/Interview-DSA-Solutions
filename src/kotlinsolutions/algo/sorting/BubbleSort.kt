@@ -1,4 +1,4 @@
-package kotlinsolutions
+package kotlinsolutions.algo.sorting
 
 /**
  * @Author Mbuodile Obiosio

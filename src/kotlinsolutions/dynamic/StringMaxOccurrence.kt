@@ -1,4 +1,4 @@
-package kotlinsolutions
+package kotlinsolutions.dynamic
 
 import java.util.*
 import java.util.stream.Collectors
@@ -32,9 +32,7 @@ fun main() {
     val str = "mbuodileobiosio"
     val words = "Eeny, meeny, miny, moe"
 
-    // println(countInstances(str))
-
-    println(countOccurrence(words, 'e'))
+    println(countOccurrence(str, 'o'))
 }
 
 private fun countOccurrence(string: String, char: Char): Int {

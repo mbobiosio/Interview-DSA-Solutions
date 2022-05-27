@@ -1,6 +1,6 @@
 package test
 
-import kotlinsolutions.findCommon
+import kotlinsolutions.dynamic.findCommon
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
 

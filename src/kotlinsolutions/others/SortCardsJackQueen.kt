@@ -1,4 +1,4 @@
-package kotlinsolutions.dynamic
+package kotlinsolutions.others
 
 /**
  * @Author Mbuodile Obiosio

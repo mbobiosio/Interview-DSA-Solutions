@@ -1,4 +1,4 @@
-package kotlinsolutions.dynamic
+package kotlinsolutions.others
 
 import java.util.*
 

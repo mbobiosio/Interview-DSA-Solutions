@@ -1,4 +1,4 @@
-package kotlinsolutions.meetingtime
+package kotlinsolutions.others
 
 /**
  * @Author Mbuodile Obiosio

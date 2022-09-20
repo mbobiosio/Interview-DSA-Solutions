@@ -102,7 +102,6 @@ In case you cannot download the file, enable third party cookies on your browser
 
 Last updated 2019-06-20 16:00:31 UTC
  */
-
 public class Synonyms {
 
     public static boolean[] solution(String[][] dictionary, String[][] problems) {
